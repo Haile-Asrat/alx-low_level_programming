@@ -1,4 +1,6 @@
-#include    "main.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
  * _isdigit-checks acharacter if it is a digit or not
  * @c -int data type
