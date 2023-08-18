@@ -1,19 +1,16 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isdigit-checks acharacter if it is a digit or not
- * @c -int data type
- * Return -1 if it is 0 otherwise
-*/
+ * _isdigit - check if numbers are 0 - 9
+ * @c: char to be checked
+ *
+ * Return: 0 or 1
+ */
+
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
-	{
-		return  (1);
-	}
+	if (c >= '0' && c <= '9')
+		return (1);
 	else
-	{
-		return  (0);
-	}
+		return (0);
 }
